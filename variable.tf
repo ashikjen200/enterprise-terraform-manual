@@ -16,6 +16,12 @@ variable "aws_region" {
   default     = "ap-south-1"
 }
 
+variable "token_id" {
+  description = "tfe token id"
+  type        = string
+  default     = ""
+}
+
 
 variable "ami" {
    type        = string

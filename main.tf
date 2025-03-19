@@ -8,7 +8,7 @@ resource "aws_instance" "public_instance" {
 }
 
 resource "aws_s3_bucket" "public_bucket" {
-  bucket = "my-public-bucket-example-12345"
+  bucket = "my-public-bucket-ashik-12345"
   acl    = "public-read"  # This grants public read access to the bucket
 
   tags = {

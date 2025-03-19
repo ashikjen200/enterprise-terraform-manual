@@ -16,12 +16,6 @@ resource "aws_s3_bucket" "public_bucket" {
   }
 }
 
-resource "aws_s3_bucket_object" "public_object" {
-  bucket = aws_s3_bucket.public_bucket.bucket
-  key    = "public_file.txt"
-  content = "This is a publicly accessible file."
-}
-
 resource "aws_s3_bucket_policy" "public_bucket_policy" {
   bucket = aws_s3_bucket.public_bucket.bucket
 

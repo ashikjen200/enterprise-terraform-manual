@@ -26,7 +26,7 @@ variable "token_id" {
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
-   default     = "ami-03bb6d83c60fc5f7c"
+   default     = "ami-00bb6a80f01f03502"
 }
 
 variable "instance_type" {
